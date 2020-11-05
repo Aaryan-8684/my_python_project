@@ -23,6 +23,8 @@ img_path = "sample4.jpg"
 image = cv2.imread(img_path)
 cv2.imshow("Input image", image)
 cv2.waitKey(0)
+cv2.imshow("Input image", image)
+cv2.waitKey(0)
 
 # convert image to grayscale, and blur(smooth) it slightly to remove noise...
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
