@@ -3,7 +3,7 @@ Filename: my_project.py
 Usage: This script will measure dimension(in cm) of different objects in the frame
 using a reference object of known dimension.
 The object with known dimension must be the leftmost object.
-Author: Aryan Gupta, Anurag Kumar Sahu, Anjali Singh.
+Author: Aryan Gupta
 """
 # Import necessary packages...
 from scipy.spatial.distance import euclidean
